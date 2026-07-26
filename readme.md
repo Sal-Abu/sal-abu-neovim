@@ -80,7 +80,11 @@ mv ~/.local/state/nvim ~/.local/state/nvim.bak
 mv ~/.cache/nvim ~/.cache/nvim.bak
 ```
 
-After securing your old files, clone this repository into your configuration folder
+After securing your old files, clone this repository into your configuration folder with the command
+
+```bash
+git clone https://github.com/Sal-Abu/sal-abu-neovim.git ~/.config/nvim
+```
 
 ## Restoring the Previous Configuration
 The backup process renames your original directories to prevent the editor from reading them. To reverse the process, you must delete the current environment and remove the .bak suffix from your saved folders.
